@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+/* CSS Reset & Global Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:  cursive,  BlinkMacSystemFont, 'Segoe UI', 'Open Sans';
+  -webkit-appearance: none;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(18, 66, 105);
+  transition: 0.8s all;
+}
+
+h1 {
+  margin-bottom: 1.5%;
+  color: #fff;
+  font-weight: normal;
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid orange;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.top-buttons {
+  display: flex;
+  align-items: center;
+}
+
+#theme-icon{
+/* background-color: orange; */
+}
+
+input {
+  padding: 25px;
+  color: rgb(87, 87, 87);
+  font-size: 1em;
+  cursor: pointer;
+  width: 70px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  margin: 0.2em;
+}
+
+.first-row{
+  padding-bottom: 10px;
+  border-bottom: 3px solid orange;
+  border-radius: 3%;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  margin-bottom: 4px;
+}
+
+.dark-part{
+  color: rgb(255, 255, 255);
+  background-color: orange;
+  
+}
+
+/* input[type="button"] {
+  color: rgb(192, 190, 190);
+} */
+
+input[type="text"] {
+  background-color: rgb(255, 255, 255);
+  width: 222.5px;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(37, 35, 59);
+  color: #fff;
+}
+
+#clear-button {
+  color: #fff;
+  background-color: orange;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* #github-icon {
+  margin-right: 10px;
+} */
+
+.theme-button {
+  all: unset;
+  cursor: pointer;
+}
